@@ -39,7 +39,7 @@ body {
 
 .left {
     flex: 1;
-    background: url(../images/left-bg.jpg) center center / cover no-repeat;
+    background: url(left-bg.jpg) center center / cover no-repeat;
     position: relative;
 }
 
@@ -191,4 +191,5 @@ body {
         padding: 20px;
     }
 }
+
 
