@@ -127,8 +127,14 @@ body {
     box-shadow: 0 0 4px rgba(151,71,255,0.5);
 }
 
-.check {
+.check-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+}
+
+.check {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -143,12 +149,10 @@ body {
     accent-color: #1A5CFF;
 }
 
-.right-content a {
-    width: 100%;
-    text-align: right;
-    text-decoration: none;
-    color: #1A5CFF;
+.check-container a {
     font-size: 14px;
+    color: #1A5CFF;
+    text-decoration: none;
 }
 
 .right-content button {
@@ -190,6 +194,13 @@ body {
         transform: none;
         padding: 20px;
     }
+
+    .check-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
 }
+
 
 
